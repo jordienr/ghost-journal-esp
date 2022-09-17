@@ -8,7 +8,7 @@
 
         <footer class="gh-card-meta">
             <time class="gh-card-date" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
-            <span class="gh-card-duration">{{reading_time}}</span>
+            <span class="gh-card-duration">{{reading_time minute="1 minuto" minutes="% minutos"}}</span>
             {{#if @site.comments_enabled}}
                 {{comment_count class="gh-card-comments"}}
             {{/if}}
